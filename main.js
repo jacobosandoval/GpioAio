@@ -75,7 +75,7 @@ myLed.dir(mraa.DIR_OUT); //set the gpio direction to output
 var ledState = true; //Boolean to hold the state of Led
 
 var analogPin0 = new mraa.Aio(0); //setup access analog inpuput pin 0
-//var analogValue = analogPin0.read(); //read the value of the analog pin
+var analogValue = analogPin0.read(); //read the value of the analog pin
 //var analogValueFloat = analogPin0.readFloat(); //read the pin value as a float
 //console.log(analogValue); //write the value of the analog pin to the console
 
